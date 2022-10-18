@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="myDiv">Users:</div>
+  <ul>
+    <li>John</li>
+    <li>Pete</li>
+  </ul>
+  <h4 class="myClass">These where all the users</h4>
+  <p class="myClass">Thanks for checking in</p>
+  <script>
+    let myDiv = document.getElementById("myDiv")
+    myDiv.innerText = "Kalle"
+    console.log(myDiv)
+
+    let tagName = document.getElementsByTagName("h4")
+    console.log(tagName)
+
+    let p = document.getElementsByTagName("p")
+    console.log(p)
+
+    let myClass = document.getElementsByClassName("myClass")
+    console.log(myClass)
+
+    let li = document.getElementsByTagName("li")
+    console.log(li)
+
+
+  </script>
+</body>
+</html>
+
